@@ -1,6 +1,8 @@
 ﻿/* Main style customizations */
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #f3f5f9;
+	color: #1f2937;
 }
 
 .content-text {
@@ -126,12 +128,19 @@ input::-webkit-inner-spin-button {
 }
 
 .sticky-form-footer {
-	border-top: 1px solid #d6d6d6;
-	background-color: white;
+	border-top: 1px solid #e1e6ef;
+	background-color: #f8fafc;
 	bottom: 0;
 	position: fixed;
 	width: 100%;
 	z-index: 1030;
+}
+
+.card,
+.modal-content,
+.dropdown-menu {
+	border-color: #e1e6ef;
+	box-shadow: 0 6px 20px rgba(15, 23, 42, 0.08);
 }
 
 form.has-sticky-form-footer .form-group:nth-last-child(2) {

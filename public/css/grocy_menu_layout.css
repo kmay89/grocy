@@ -215,7 +215,7 @@ body.fixed-nav {
 }
 
 #mainNav.fixed-top.navbar-light .sidenav-toggler {
-	background-color: #d6d6d6;
+	background-color: #e1e6ef;
 }
 
 #mainNav.fixed-top.navbar-light .sidenav-toggler a i {
@@ -239,7 +239,7 @@ body.sidenav-toggled #mainNav.fixed-top #sidenavToggler i {
 
 .content-wrapper {
 	overflow-x: hidden;
-	background: white;
+	background: #f8fafc;
 }
 
 @media (min-width: 992px) {
@@ -330,12 +330,12 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 @media (min-width: 992px) {
 	#mainNav.navbar-light .navbar-collapse .navbar-sidenav {
-		background: #f8f9fa;
+		background: #f5f7fb;
 	}
 
 	#mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a {
 		color: #000 !important;
-		background-color: #d6d6d6;
+		background-color: #e2e8f4;
 	}
 
 	#mainNav.navbar-light .navbar-collapse .navbar-sidenav li.active a:focus,
@@ -345,15 +345,15 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 	#mainNav.navbar-light .navbar-collapse .navbar-sidenav>.nav-item .sidenav-second-level,
 	#mainNav.navbar-light .navbar-collapse .navbar-sidenav>.nav-item .sidenav-third-level {
-		background: #f8f9fa;
+		background: #f5f7fb;
 	}
 }
 
 #mainNav {
 	line-height: 1;
-	background-color: #e5e5e5 !important;
+	background-color: #f1f3f7 !important;
 	border-bottom: 2px solid !important;
-	border-color: #d6d6d6 !important;
+	border-color: #e1e6ef !important;
 	padding-bottom: 0.3rem;
 }
 
@@ -372,13 +372,13 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 
 .navbar-sidenav,
 .sidenav-second-level {
-	background-color: #e5e5e5 !important;
+	background-color: #f1f3f7 !important;
 	border-right: 2px solid !important;
-	border-color: #d6d6d6 !important;
+	border-color: #e1e6ef !important;
 }
 
 .navbar-nav .dropdown-menu {
-	background-color: #e5e5e5 !important;
+	background-color: #f1f3f7 !important;
 	border: 0;
 	border-radius: 0;
 }
@@ -386,13 +386,13 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 .navbar-nav .dropdown-divider,
 .nav-item-divider {
 	border-top: 2px solid !important;
-	border-color: #d6d6d6 !important;
+	border-color: #e1e6ef !important;
 }
 
 .sidenav-toggler {
-	background-color: #d6d6d6 !important;
+	background-color: #e1e6ef !important;
 	border-right: 2px solid !important;
-	border-color: #d6d6d6 !important;
+	border-color: #e1e6ef !important;
 }
 
 .navbar-sidenav>li:hover,
@@ -403,7 +403,7 @@ body.sidenav-toggled .navbar-sidenav-tooltip.show {
 .navbar-nav .dropdown-item:focus,
 .active-page {
 	box-shadow: inset 7px 0 0 #337ab7 !important;
-	background-color: #d6d6d6 !important;
+	background-color: #e2e8f4 !important;
 }
 
 .navbar-brand {
